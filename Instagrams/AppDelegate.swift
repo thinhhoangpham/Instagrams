@@ -24,6 +24,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         }
         Parse.initialize(with: parseConfig)
         
+        
+        
         return true
     }
 

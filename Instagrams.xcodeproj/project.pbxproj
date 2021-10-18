@@ -24,6 +24,7 @@
 		F60331142712202A0076D412 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60331132712202A0076D412 /* FeedViewController.swift */; };
 		F6616D582713F9A200817C1F /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6616D572713F9A200817C1F /* PostCell.swift */; };
 		F6A36B4A27136062003B44C4 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A36B4927136062003B44C4 /* CameraViewController.swift */; };
+		F6A5DB79271D056B00F34052 /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A5DB78271D056B00F34052 /* CommentCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,7 +54,7 @@
 		D422622DE29FC4BCD5E362EF /* Pods-Instagrams.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Instagrams.release.xcconfig"; path = "Target Support Files/Pods-Instagrams/Pods-Instagrams.release.xcconfig"; sourceTree = "<group>"; };
 		D907A5676787C3F22F5551AD /* Pods-Instagrams-InstagramsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Instagrams-InstagramsUITests.release.xcconfig"; path = "Target Support Files/Pods-Instagrams-InstagramsUITests/Pods-Instagrams-InstagramsUITests.release.xcconfig"; sourceTree = "<group>"; };
 		EC27B0F73CA235F2B0B745C5 /* Pods-Instagrams.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Instagrams.debug.xcconfig"; path = "Target Support Files/Pods-Instagrams/Pods-Instagrams.debug.xcconfig"; sourceTree = "<group>"; };
-		F60254712712244D00D39EA9 /* VeganStylePersonalUse-5Y58.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "VeganStylePersonalUse-5Y58.ttf"; sourceTree = "<group>"; };
+		F60254712712244D00D39EA9 /* VeganStylePersonalUse-5Y58.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "VeganStylePersonalUse-5Y58.ttf"; path = "Instagrams/fonts/VeganStylePersonalUse-5Y58.ttf"; sourceTree = SOURCE_ROOT; };
 		F60330DE27121B9E0076D412 /* Instagrams.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Instagrams.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F60330E127121B9E0076D412 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F60330E327121B9E0076D412 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -71,6 +72,7 @@
 		F60331132712202A0076D412 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		F6616D572713F9A200817C1F /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 		F6A36B4927136062003B44C4 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		F6A5DB78271D056B00F34052 /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,6 +162,7 @@
 				F60331132712202A0076D412 /* FeedViewController.swift */,
 				F6A36B4927136062003B44C4 /* CameraViewController.swift */,
 				F6616D572713F9A200817C1F /* PostCell.swift */,
+				F6A5DB78271D056B00F34052 /* CommentCell.swift */,
 			);
 			path = Instagrams;
 			sourceTree = "<group>";
@@ -437,6 +440,7 @@
 				F60331142712202A0076D412 /* FeedViewController.swift in Sources */,
 				F60330E427121B9E0076D412 /* SceneDelegate.swift in Sources */,
 				F6616D582713F9A200817C1F /* PostCell.swift in Sources */,
+				F6A5DB79271D056B00F34052 /* CommentCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
